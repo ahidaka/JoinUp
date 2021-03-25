@@ -25,3 +25,5 @@ extern "C" JOINUP_API BOOLEAN joinup_start(PTSTR Path, PTSTR Name);
 extern "C" JOINUP_API BOOLEAN joinup_stop(PTSTR Path, PTSTR Name);
 
 extern "C" JOINUP_API BOOLEAN joinup_setopt(JOINUP_OPT Option, PTSTR Name);
+
+extern "C" JOINUP_API BOOLEAN joinup_getopt(JOINUP_OPT Option, PTSTR Name);
